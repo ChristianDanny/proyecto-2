@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+/* HEADER */
+header{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    background : #00AAB5;
+    font-size: 22px;
+    justify-content: space-between;
+    align-items: center;
+    padding : 26px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.titulo span{
+    font-size: 0.9em;
+    padding-left: 15px;
+}
+
+.menu ul{
+    display:flex;
+    list-style: none;
+}
+.menu ul li{
+    font-size: 0.9em;
+    padding: 0 7px;
+}
+
+/* MAIN */
+
+main{
+    width: 100%;
+}
+
+main > section{
+    width: 100%;
+    position: relative;
+}
+
+.about-me{
+    color: #fff;
+    height: 600px;
+    background: url(../img/image.png);
+    background-size: cover;
+}
+
+.about-me h2{
+    font-size: 4rem;
+    text-align: center;
+    padding-top:20px;
+}
+
+.about-me h3{
+    width: 32%;
+    position: absolute;
+    font-size: 3rem;
+    background: rgba(114, 153, 254, 0.5);;
+    bottom: 20%;
+    left: 4%;
+    padding: 1%;
+}
+
+.skills h2,
+.services h2,
+.portafolio h2,
+.clientes h2,
+.contacto h2 {
+    font-size: 2.5rem;
+    padding-top: 30px;
+    text-align: center;
+}
+/*  MY SKILLS */
+
+.skills{
+    background-color: #1597E5;
+    color: #fff;
+}
+
+.skills h2{
+    color: #3D2C8D;
+}
+
+.skills .skills-programs{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding : 3%
+}
+.skills-programs h4{
+    font-size: 1.5rem;
+}
+
+.skills-programs > div{
+    width: 45%;
+    margin: 0% 2% 2%;
+}
+
+.barra{
+    width: 100%;
+    height: 13px;
+    background: #fff;
+    position: relative;
+    
+}
+
+.barra .barra-one{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-two{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-three{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-four{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-five{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-six{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-seven{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+.barra .barra-eight{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+}
+
+/*  SERVICES  */
+.services{
+    background-color: #FF5151;
+    color : #fff
+}
+
+.services h2{
+    color: #00CC9B;
+}
+
+
+.services .services-options{
+    width:70%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top : 3%;
+    text-align: center;
+}
+
+.services-options h4{
+    font-size: 1.3rem;
+}
+
+.services-options > div{
+    width: 33%;
+    margin-bottom: 5%;
+}
+
+/*  PORTAFOLIO  */
+.portafolio{
+    background-color: #FFD233;  
+}
+
+.portafolio h2{
+    color: #8402A5;
+}
+
+.portafolio-projects{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    flex-wrap: wrap;
+    padding: 2% 0;
+}
+
+.portafolio-projects img{
+    width: 21%;
+    margin: 0% 2% 3%;
+}
+
+/*  PORTAFOLIO  */
+.clientes{
+    background-color: #3F4E62;
+}
+.clientes h2{
+    color: #FF00C7;
+}
+.clientes-names{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding : 2%;
+    justify-content: space-between;
+}
+
+/*  Contacto */
+
+.contacto{
+    background-color:#16A085 ;
+}
+.contacto h2{
+    color: #CEE000;
+}
+.formulario{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+.formulario input{
+    margin-bottom: 2%;
+}
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario input[type=number]{
+    width: 48%;
+    padding-left: 1%;
+    height: 50px;
+    outline:none;
+}
+
+.formulario textarea{
+    padding: 1%;
+    font-size: 1rem;
+    width: 98%;
+    height: 150px;
+    outline:none;
+    resize: none;
+}
+
+
+button{
+    border: none;
+    margin-top: 2.5%;
+    color :#fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding:1% 4%;
+    border-radius: 0.3rem;
+    background: #233451;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    background: #00AAB5;
+    color: #fff;
+    justify-content: space-between;
+    padding : 3% 2%;
+}
